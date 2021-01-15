@@ -1,10 +1,12 @@
 import './styles.css';
 import StepsHeader from './StepsHeader';
+import ProductsList from './ProductsList';
 
 function Orders() {
     return (
-        <div className="ordes-cantainer">
+        <div className="orders-container">
             <StepsHeader/>
+            <ProductsList/>
         </div>
     )
 }
